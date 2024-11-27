@@ -6,20 +6,20 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.tableview.InsertController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="fx-border-color: rgb(200, 220, 240); -fx-border-width: 20;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.tableview.InsertController">
    <children>
-      <TextField fx:id="nameField" layoutX="220.0" layoutY="115.0" />
-      <Label layoutX="220.0" layoutY="97.0" text="Name:" />
-      <TextField fx:id="skuField" layoutX="220.0" layoutY="172.0" />
-      <Label layoutX="220.0" layoutY="154.0" text="SKU:" />
-      <TextField fx:id="priceField" layoutX="220.0" layoutY="231.0" />
-      <Label layoutX="220.0" layoutY="213.0" text="Price:" />
-      <TextField fx:id="quantityField" layoutX="220.0" layoutY="293.0" />
-      <Label layoutX="220.0" layoutY="275.0" text="Quantity:" />
-      <Button layoutX="220.0" layoutY="342.0" mnemonicParsing="false" onAction="#close" prefHeight="26.0" prefWidth="162.0" text="Create" />
-      <Label layoutX="206.0" layoutY="33.0" prefHeight="48.0" prefWidth="189.0" text="INSERTION PAGE">
+      <TextField fx:id="nameField" layoutX="220.0" layoutY="108.0" promptText="Name:" style="-fx-border-color: rgb(200, 220, 240);" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="216.0" />
+      <Label layoutX="220.0" layoutY="90.0" text="Name:" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="339.0" />
+      <TextField fx:id="skuField" layoutX="220.0" layoutY="165.0" promptText="SKU:" style="-fx-border-color: rgb(200, 220, 240);" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="216.0" />
+      <Label layoutX="220.0" layoutY="147.0" text="SKU:" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="351.0" />
+      <TextField fx:id="priceField" layoutX="220.0" layoutY="224.0" promptText="Price:" style="-fx-border-color: rgb(200, 220, 240);" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="216.0" />
+      <Label layoutX="220.0" layoutY="206.0" text="Price:" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="346.0" />
+      <TextField fx:id="quantityField" layoutX="220.0" layoutY="286.0" promptText="Quantity:" style="-fx-border-color: rgb(200, 220, 240);" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="216.0" />
+      <Label layoutX="220.0" layoutY="268.0" text="Quantity:" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="323.0" />
+      <Button layoutX="220.0" layoutY="335.0" mnemonicParsing="false" onAction="#close" prefHeight="26.0" prefWidth="162.0" style="-fx-background-color: rgb(200, 220, 240);" text="Create" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="218.0" />
+      <Label layoutX="206.0" layoutY="39.0" prefHeight="48.0" prefWidth="189.0" text="INSERTION PAGE" textFill="#586d83">
          <font>
-            <Font size="23.0" />
+            <Font name="System Bold" size="23.0" />
          </font>
       </Label>
    </children>
