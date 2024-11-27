@@ -15,10 +15,13 @@
             <TableColumn fx:id="quantity" prefWidth="90.0" style="fx-background-color: rgb(255, 255, 255);" text="Quantity" />
             <TableColumn fx:id="total" prefWidth="87.0" style="fx-background-color: #ffff;" text="Total" />
         </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
       </TableView>
-      <Button fx:id="insertBtn" layoutX="14.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleInsertClick" prefWidth="100.0" style="-fx-background-color: rgb(200, 220, 240);" text="Insert" />
-      <Button fx:id="updateBtn" layoutX="179.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleUpdateClick" prefWidth="100.0" style="-fx-background-color: rgb(200, 220, 240);" text="Update" />
-      <Button fx:id="deleteBtn" layoutX="336.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleDeleteClick" prefWidth="100.0" style="-fx-background-color: rgb(200, 220, 240);" text="Delete" />
-      <Button fx:id="detailBtn" layoutX="488.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleDetailsClick" prefHeight="26.0" prefWidth="100.0" style="-fx-background-color: rgb(200, 220, 240);" text="Detail" />
+      <Button fx:id="insertBtn" layoutX="14.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleInsertClick" prefWidth="100.0" style="-fx-background-color: rgb(200, 220, 240);" text="Insert" AnchorPane.bottomAnchor="24.0" AnchorPane.leftAnchor="14.0" />
+      <Button fx:id="updateBtn" layoutX="179.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleUpdateClick" prefWidth="100.0" style="-fx-background-color: rgb(200, 220, 240);" text="Update" AnchorPane.bottomAnchor="24.0" AnchorPane.leftAnchor="179.0" />
+      <Button fx:id="deleteBtn" layoutX="336.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleDeleteClick" prefWidth="100.0" style="-fx-background-color: rgb(200, 220, 240);" text="Delete" AnchorPane.bottomAnchor="24.0" AnchorPane.rightAnchor="164.0" />
+      <Button fx:id="detailBtn" layoutX="488.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleDetailsClick" prefHeight="26.0" prefWidth="100.0" style="-fx-background-color: rgb(200, 220, 240);" text="Detail" AnchorPane.bottomAnchor="24.0" AnchorPane.rightAnchor="12.0" />
    </children>
 </AnchorPane>
